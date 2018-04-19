@@ -1,0 +1,46 @@
+_____Variables_____
+number 
+divisor
+remainder 
+
+_____Initialize_____ 
+number=1
+divisor=2
+
+_____Process 1_____
+If(number<2)
+Yes - print "It's not prime!"
+No  - increment by 1
+process again
+
+If(numbers=2)
+Yes - print "number is prime"
+No  - increment by 1
+process again 
+
+If(number>2)
+go to the next step  
+
+_____Process 2_____
+remainder=number % devisor(2)
+If(remaider=0)
+It's not prime number , number+=1, devisor= 2 process again 
+
+Else
+divisor +=1
+If (number+devisor)
+print "number is prime" number+=1, devisor=2 process again 
+
+Else 
+process again 
+
+
+
+
+
+
+
+
+
+
+
